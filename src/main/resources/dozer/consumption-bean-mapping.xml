@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mappings xmlns="http://dozer.sourceforge.net"
+          xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+          xsi:schemaLocation="http://dozer.sourceforge.net
+      http://dozer.sourceforge.net/schema/beanmapping.xsd">
+    <mapping wildcard="false">
+        <class-a>com.aslan.mongoaggregation.dto.ConsumptionDTO</class-a>
+        <class-b>com.aslan.mongoaggregation.model.Consumption</class-b>
+        <field>
+            <a>id</a>
+            <b>id</b>
+        </field>
+        <field>
+            <a>month</a>
+            <b>month</b>
+        </field>
+        <field>
+            <a>consumption</a>
+            <b>consumption</b>
+        </field>
+        <field>
+            <a>profile</a>
+            <b>profile</b>
+        </field>
+
+    </mapping>
+
+</mappings>
